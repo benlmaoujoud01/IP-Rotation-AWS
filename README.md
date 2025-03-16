@@ -88,29 +88,6 @@ This script uses the `requests-ip-rotator` library to create an AWS API Gateway 
 
 The API Gateway is set up dynamically for each domain and is automatically shut down when the script completes.
 
-## Example Output
-
-```
-=== Starting 100 requests for: https://example.com/feed.rss ===
-
-Request 1/100 for URL: https://example.com/feed.rss
-Status: 200
-Number of entries: 25
-Title: First Article Title
-Title: Second Article Title
-...
-
-Request 2/100 for URL: https://example.com/feed.rss
-Status: 200
-Number of entries: 25
-...
-
-=== Summary for https://example.com/feed.rss ===
-Successful requests: 98
-Failed requests: 2
-==================================================
-```
-
 ## AWS Costs
 
 Please note that using AWS API Gateway may incur costs in your AWS account. The script creates and destroys gateways for each domain to minimize costs, but be aware of your AWS usage.
