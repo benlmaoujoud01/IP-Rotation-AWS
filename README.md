@@ -1,4 +1,4 @@
-# RSS Feed Scraper with IP Rotation
+# Scraper with IP Rotation
 
 A Python utility for fetching and parsing RSS feeds with automatic IP rotation to avoid rate limiting and IP bans.
 
